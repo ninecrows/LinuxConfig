@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# make sure we're up to date before we start.
+apt -y update
+apt -y upgrade
+
+# install standard packages
+apt -y install dev-essential
+apt -y install apache2
+apt -y install samba
+apt -y install ssh
+apt -y install git
+apt -y install emacs
+apt -y install python
+apt -y install blender
+apt -y install audacity
+apt -y install darktable
+apt -y install wireshark
+apt -y install gimp
+apt -y install inkscape
+apt -y install timeshift
+apt -y install mysql-server
+apt -y install nodejs
+apt -y install npm
